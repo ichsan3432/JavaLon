@@ -21,9 +21,8 @@ public class latihan13_2 {
 		System.out.println ("   MENU PILIHAN  ");
 		System.out.println ("=================");
 		System.out.print("1. Tampilkan Info Buku, 2.Tampilkan Info Notes, 3.Pesan yang ditambahkan, 4.Selesai");
-		while(true){
 		int n = input.nextInt();
-		switch(n) {
+		switch (n) {
 		case 1:	
 			buku.display();
 			break;
@@ -43,8 +42,7 @@ public class latihan13_2 {
 		System.out.println ("=================");
 		System.out.println ("   MENU PILIHAN  ");
 		System.out.println ("=================");
-		System.out.println ("1. Tampilkan Info Buku, 2.Tampilkan Info Notes, 3.Pesan yang ditambahkan, 4.Selesai");
+		System.out.print ("1. Tampilkan Info Buku, 2.Tampilkan Info Notes, 3.Pesan yang ditambahkan, 4.Selesai");
 		n = input.nextInt();
-		}
 	}
 }
